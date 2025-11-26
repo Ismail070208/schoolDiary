@@ -10,7 +10,7 @@ namespace schoolDiary
     public class Database
     {
         public static string ConnectionString =
-        @"Data Source=DESKTOP-743IP50\MSSQLSERVER2022;Initial Catalog=SchoolDiaryDB;Integrated Security=True;";
+        @"Data Source=localhost\MSSQLSERVER2022;Initial Catalog=SchoolDiaryDB;Integrated Security=True;";
 
         public static SqlConnection GetConnection()
         {
